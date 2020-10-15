@@ -18,7 +18,7 @@ import sys
 def vk_connection():
     """Connection VK"""
     url_vk = 'https://api.vk.com/method/wall.post'
-    access_token = '2a178dce5dc40ab111aae6ad3688565a7e01648ef49c432936bc00c244bfbcc0ff77be64f810df3ab4d75'
+    access_token = '______________' # Your token
     version_api_vk = 5.92
 
     try:
@@ -38,7 +38,7 @@ def vk_connection():
 def fb_connection():
     """Connection FB"""
     url_fb = 'https://graph.facebook.com/me/feed/?message='
-    access_token2 = 'EAAuEwD2ZAzWsBAPhCTxqmCL3eHkL4geZCEUdLLZBRNurRJE4gcSWjq3azqclGaCYswDMbwYv9Dosnasl0USrOCIsglWZCpUnvFCPclHhx2yQNjqmsDlRdZC6MR4l2TYD8eZC1jLmeBr8cXYp3JECw9h1LXevxRL9y9faln9DmKk0q59XnoAF76'
+    access_token2 = '______________' # Your token
     message.replace('', '+')
 
     try:
